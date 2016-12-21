@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243BF8351DE5380500F3F015 /* REEventEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BF8341DE5380500F3F015 /* REEventEditViewController.m */; };
+		243BF8381DE53B4E00F3F015 /* REEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 243BF8371DE53B4E00F3F015 /* REEditTableViewCell.m */; };
+		245D26451DE3EA4A00999E87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 245D26441DE3EA4A00999E87 /* main.m */; };
+		245D26481DE3EA4A00999E87 /* REAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 245D26471DE3EA4A00999E87 /* REAppDelegate.m */; };
+		245D264B1DE3EA4A00999E87 /* REMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245D264A1DE3EA4A00999E87 /* REMainViewController.m */; };
+		245D264E1DE3EA4A00999E87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245D264C1DE3EA4A00999E87 /* Main.storyboard */; };
+		245D26501DE3EA4A00999E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245D264F1DE3EA4A00999E87 /* Assets.xcassets */; };
+		245D26531DE3EA4A00999E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245D26511DE3EA4A00999E87 /* LaunchScreen.storyboard */; };
+		245D265E1DE3EFC100999E87 /* REDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 245D265D1DE3EFC100999E87 /* REDateTableViewCell.m */; };
+		245D26661DE42BC300999E87 /* REEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 245D26651DE42BC300999E87 /* REEventModel.m */; };
+		245D26691DE431F800999E87 /* REUniversalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 245D26681DE431F700999E87 /* REUniversalTool.m */; };
+		245D266C1DE4322500999E87 /* REPersistanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 245D266B1DE4322500999E87 /* REPersistanceManager.m */; };
+		2468D1E61E011FCF009E97D0 /* settingButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2468D1E51E011FCF009E97D0 /* settingButton@2x.png */; };
+		249011581E08DEBC00016C04 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249011571E08DEBC00016C04 /* NotificationCenter.framework */; };
+		2490115C1E08DEBC00016C04 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2490115B1E08DEBC00016C04 /* TodayViewController.m */; };
+		2490115F1E08DEBC00016C04 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2490115D1E08DEBC00016C04 /* MainInterface.storyboard */; };
+		249011631E08DEBC00016C04 /* RememberWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 249011551E08DEBB00016C04 /* RememberWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24E2769A1DF658480041BB03 /* RESlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E276991DF658480041BB03 /* RESlideViewController.m */; };
+		24E6C8F41E027447000BC595 /* REMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E6C8F31E027447000BC595 /* REMainTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		249011611E08DEBC00016C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 245D26381DE3EA4A00999E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249011541E08DEBB00016C04;
+			remoteInfo = RememberWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		249011671E08DEBC00016C04 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				249011631E08DEBC00016C04 /* RememberWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		243BF8331DE5380500F3F015 /* REEventEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REEventEditViewController.h; sourceTree = "<group>"; };
+		243BF8341DE5380500F3F015 /* REEventEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REEventEditViewController.m; sourceTree = "<group>"; };
+		243BF8361DE53B4E00F3F015 /* REEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REEditTableViewCell.h; sourceTree = "<group>"; };
+		243BF8371DE53B4E00F3F015 /* REEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REEditTableViewCell.m; sourceTree = "<group>"; };
+		245D26401DE3EA4A00999E87 /* Remember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remember.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		245D26441DE3EA4A00999E87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		245D26461DE3EA4A00999E87 /* REAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REAppDelegate.h; sourceTree = "<group>"; };
+		245D26471DE3EA4A00999E87 /* REAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REAppDelegate.m; sourceTree = "<group>"; };
+		245D26491DE3EA4A00999E87 /* REMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REMainViewController.h; sourceTree = "<group>"; };
+		245D264A1DE3EA4A00999E87 /* REMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REMainViewController.m; sourceTree = "<group>"; };
+		245D264D1DE3EA4A00999E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		245D264F1DE3EA4A00999E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		245D26521DE3EA4A00999E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		245D26541DE3EA4A00999E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245D265B1DE3EC1600999E87 /* REMDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REMDefine.h; sourceTree = "<group>"; };
+		245D265C1DE3EFC100999E87 /* REDateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDateTableViewCell.h; sourceTree = "<group>"; };
+		245D265D1DE3EFC100999E87 /* REDateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDateTableViewCell.m; sourceTree = "<group>"; };
+		245D26641DE42BC300999E87 /* REEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REEventModel.h; sourceTree = "<group>"; };
+		245D26651DE42BC300999E87 /* REEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REEventModel.m; sourceTree = "<group>"; };
+		245D26671DE431F700999E87 /* REUniversalTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REUniversalTool.h; sourceTree = "<group>"; };
+		245D26681DE431F700999E87 /* REUniversalTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REUniversalTool.m; sourceTree = "<group>"; };
+		245D266A1DE4322500999E87 /* REPersistanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REPersistanceManager.h; sourceTree = "<group>"; };
+		245D266B1DE4322500999E87 /* REPersistanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REPersistanceManager.m; sourceTree = "<group>"; };
+		2468D1E51E011FCF009E97D0 /* settingButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingButton@2x.png"; sourceTree = "<group>"; };
+		249011551E08DEBB00016C04 /* RememberWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RememberWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		249011571E08DEBC00016C04 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2490115A1E08DEBC00016C04 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		2490115B1E08DEBC00016C04 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		2490115E1E08DEBC00016C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		249011601E08DEBC00016C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		249011681E090A5B00016C04 /* RememberWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RememberWidget.entitlements; sourceTree = "<group>"; };
+		249011691E090C3700016C04 /* Remember.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Remember.entitlements; sourceTree = "<group>"; };
+		24E276981DF658480041BB03 /* RESlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESlideViewController.h; sourceTree = "<group>"; };
+		24E276991DF658480041BB03 /* RESlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESlideViewController.m; sourceTree = "<group>"; };
+		24E6C8F21E027447000BC595 /* REMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMainTableViewCell.h; sourceTree = "<group>"; };
+		24E6C8F31E027447000BC595 /* REMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMainTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		245D263D1DE3EA4A00999E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249011521E08DEBB00016C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249011581E08DEBC00016C04 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245D26371DE3EA4A00999E87 = {
+			isa = PBXGroup;
+			children = (
+				245D26421DE3EA4A00999E87 /* Remember */,
+				249011591E08DEBC00016C04 /* RememberWidget */,
+				249011561E08DEBC00016C04 /* Frameworks */,
+				245D26411DE3EA4A00999E87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		245D26411DE3EA4A00999E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				245D26401DE3EA4A00999E87 /* Remember.app */,
+				249011551E08DEBB00016C04 /* RememberWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		245D26421DE3EA4A00999E87 /* Remember */ = {
+			isa = PBXGroup;
+			children = (
+				249011691E090C3700016C04 /* Remember.entitlements */,
+				245D26621DE42B5500999E87 /* Manager */,
+				245D26611DE42B4B00999E87 /* Model */,
+				245D26601DE42B4100999E87 /* View */,
+				245D265F1DE42B2300999E87 /* Controller */,
+				245D26631DE42B7A00999E87 /* Other */,
+				245D26431DE3EA4A00999E87 /* Supporting Files */,
+			);
+			path = Remember;
+			sourceTree = "<group>";
+		};
+		245D26431DE3EA4A00999E87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				245D26441DE3EA4A00999E87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		245D265F1DE42B2300999E87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				245D26491DE3EA4A00999E87 /* REMainViewController.h */,
+				245D264A1DE3EA4A00999E87 /* REMainViewController.m */,
+				24E276981DF658480041BB03 /* RESlideViewController.h */,
+				24E276991DF658480041BB03 /* RESlideViewController.m */,
+				243BF8331DE5380500F3F015 /* REEventEditViewController.h */,
+				243BF8341DE5380500F3F015 /* REEventEditViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		245D26601DE42B4100999E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				245D265C1DE3EFC100999E87 /* REDateTableViewCell.h */,
+				245D265D1DE3EFC100999E87 /* REDateTableViewCell.m */,
+				243BF8361DE53B4E00F3F015 /* REEditTableViewCell.h */,
+				243BF8371DE53B4E00F3F015 /* REEditTableViewCell.m */,
+				24E6C8F21E027447000BC595 /* REMainTableViewCell.h */,
+				24E6C8F31E027447000BC595 /* REMainTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		245D26611DE42B4B00999E87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				245D26641DE42BC300999E87 /* REEventModel.h */,
+				245D26651DE42BC300999E87 /* REEventModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		245D26621DE42B5500999E87 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				245D26671DE431F700999E87 /* REUniversalTool.h */,
+				245D26681DE431F700999E87 /* REUniversalTool.m */,
+				245D266A1DE4322500999E87 /* REPersistanceManager.h */,
+				245D266B1DE4322500999E87 /* REPersistanceManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		245D26631DE42B7A00999E87 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2468D1E51E011FCF009E97D0 /* settingButton@2x.png */,
+				245D265B1DE3EC1600999E87 /* REMDefine.h */,
+				245D26461DE3EA4A00999E87 /* REAppDelegate.h */,
+				245D26471DE3EA4A00999E87 /* REAppDelegate.m */,
+				245D264C1DE3EA4A00999E87 /* Main.storyboard */,
+				245D264F1DE3EA4A00999E87 /* Assets.xcassets */,
+				245D26511DE3EA4A00999E87 /* LaunchScreen.storyboard */,
+				245D26541DE3EA4A00999E87 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		249011561E08DEBC00016C04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249011571E08DEBC00016C04 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		249011591E08DEBC00016C04 /* RememberWidget */ = {
+			isa = PBXGroup;
+			children = (
+				249011681E090A5B00016C04 /* RememberWidget.entitlements */,
+				2490115A1E08DEBC00016C04 /* TodayViewController.h */,
+				2490115B1E08DEBC00016C04 /* TodayViewController.m */,
+				2490115D1E08DEBC00016C04 /* MainInterface.storyboard */,
+				249011601E08DEBC00016C04 /* Info.plist */,
+			);
+			path = RememberWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		245D263F1DE3EA4A00999E87 /* Remember */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245D26571DE3EA4A00999E87 /* Build configuration list for PBXNativeTarget "Remember" */;
+			buildPhases = (
+				245D263C1DE3EA4A00999E87 /* Sources */,
+				245D263D1DE3EA4A00999E87 /* Frameworks */,
+				245D263E1DE3EA4A00999E87 /* Resources */,
+				249011671E08DEBC00016C04 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249011621E08DEBC00016C04 /* PBXTargetDependency */,
+			);
+			name = Remember;
+			productName = Remember;
+			productReference = 245D26401DE3EA4A00999E87 /* Remember.app */;
+			productType = "com.apple.product-type.application";
+		};
+		249011541E08DEBB00016C04 /* RememberWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249011661E08DEBC00016C04 /* Build configuration list for PBXNativeTarget "RememberWidget" */;
+			buildPhases = (
+				249011511E08DEBB00016C04 /* Sources */,
+				249011521E08DEBB00016C04 /* Frameworks */,
+				249011531E08DEBB00016C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RememberWidget;
+			productName = RememberWidget;
+			productReference = 249011551E08DEBB00016C04 /* RememberWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		245D26381DE3EA4A00999E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = enice;
+				TargetAttributes = {
+					245D263F1DE3EA4A00999E87 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = N9S5HCHVGJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					249011541E08DEBB00016C04 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = N9S5HCHVGJ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 245D263B1DE3EA4A00999E87 /* Build configuration list for PBXProject "Remember" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 245D26371DE3EA4A00999E87;
+			productRefGroup = 245D26411DE3EA4A00999E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				245D263F1DE3EA4A00999E87 /* Remember */,
+				249011541E08DEBB00016C04 /* RememberWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		245D263E1DE3EA4A00999E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2468D1E61E011FCF009E97D0 /* settingButton@2x.png in Resources */,
+				245D26531DE3EA4A00999E87 /* LaunchScreen.storyboard in Resources */,
+				245D26501DE3EA4A00999E87 /* Assets.xcassets in Resources */,
+				245D264E1DE3EA4A00999E87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249011531E08DEBB00016C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2490115F1E08DEBC00016C04 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		245D263C1DE3EA4A00999E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245D265E1DE3EFC100999E87 /* REDateTableViewCell.m in Sources */,
+				243BF8381DE53B4E00F3F015 /* REEditTableViewCell.m in Sources */,
+				245D264B1DE3EA4A00999E87 /* REMainViewController.m in Sources */,
+				245D26481DE3EA4A00999E87 /* REAppDelegate.m in Sources */,
+				245D26661DE42BC300999E87 /* REEventModel.m in Sources */,
+				24E2769A1DF658480041BB03 /* RESlideViewController.m in Sources */,
+				243BF8351DE5380500F3F015 /* REEventEditViewController.m in Sources */,
+				24E6C8F41E027447000BC595 /* REMainTableViewCell.m in Sources */,
+				245D266C1DE4322500999E87 /* REPersistanceManager.m in Sources */,
+				245D26691DE431F800999E87 /* REUniversalTool.m in Sources */,
+				245D26451DE3EA4A00999E87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249011511E08DEBB00016C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2490115C1E08DEBC00016C04 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249011621E08DEBC00016C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249011541E08DEBB00016C04 /* RememberWidget */;
+			targetProxy = 249011611E08DEBC00016C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		245D264C1DE3EA4A00999E87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				245D264D1DE3EA4A00999E87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		245D26511DE3EA4A00999E87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				245D26521DE3EA4A00999E87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2490115D1E08DEBC00016C04 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2490115E1E08DEBC00016C04 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		245D26551DE3EA4A00999E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		245D26561DE3EA4A00999E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		245D26581DE3EA4A00999E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N9S5HCHVGJ;
+				INFOPLIST_FILE = Remember/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enice.Remember;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		245D26591DE3EA4A00999E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N9S5HCHVGJ;
+				INFOPLIST_FILE = Remember/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enice.Remember;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		249011641E08DEBC00016C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N9S5HCHVGJ;
+				INFOPLIST_FILE = RememberWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enice.Remember.RememberWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
+			};
+			name = Debug;
+		};
+		249011651E08DEBC00016C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = N9S5HCHVGJ;
+				INFOPLIST_FILE = RememberWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enice.Remember.RememberWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = all;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245D263B1DE3EA4A00999E87 /* Build configuration list for PBXProject "Remember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245D26551DE3EA4A00999E87 /* Debug */,
+				245D26561DE3EA4A00999E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		245D26571DE3EA4A00999E87 /* Build configuration list for PBXNativeTarget "Remember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245D26581DE3EA4A00999E87 /* Debug */,
+				245D26591DE3EA4A00999E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249011661E08DEBC00016C04 /* Build configuration list for PBXNativeTarget "RememberWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249011641E08DEBC00016C04 /* Debug */,
+				249011651E08DEBC00016C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 245D26381DE3EA4A00999E87 /* Project object */;
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYt-pg-k76">
+                                <rect key="frame" x="16" y="28" width="168" height="30.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="g7f-s5-Crs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="365" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXw-1w-V5P">
+                                <rect key="frame" x="219" y="37" width="73" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="MtX-gd-6jp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                <color key="textColor" red="0.8980392157" green="0.22352941179999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpW-VB-A19">
+                                <rect key="frame" x="294" y="56" width="17" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Qe3-rh-S1y"/>
+                                    <constraint firstAttribute="width" constant="17" id="axt-XL-v4S"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 目标日：2017年8月24日 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8e-UQ-9Kd">
+                                <rect key="frame" x="16" y="72" width="176.5" height="22"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.22352941179999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="fgM-D8-on4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="cpW-VB-A19" firstAttribute="leading" secondItem="xXw-1w-V5P" secondAttribute="trailing" constant="2" id="Bb4-m8-rsZ"/>
+                            <constraint firstItem="xXw-1w-V5P" firstAttribute="leading" secondItem="iYt-pg-k76" secondAttribute="trailing" constant="35" id="EnB-CC-JOt"/>
+                            <constraint firstItem="iYt-pg-k76" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="28" id="FOZ-2A-x9g"/>
+                            <constraint firstItem="xXw-1w-V5P" firstAttribute="centerY" secondItem="S3S-Oj-5AN" secondAttribute="centerY" id="HIV-dm-dBc"/>
+                            <constraint firstItem="cpW-VB-A19" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="56" id="Z98-Wa-0Xu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cpW-VB-A19" secondAttribute="trailing" constant="-7" id="bxL-dq-Gy9"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Z8e-UQ-9Kd" secondAttribute="leading" id="cnV-nR-pKF"/>
+                            <constraint firstItem="Z8e-UQ-9Kd" firstAttribute="top" secondItem="iYt-pg-k76" secondAttribute="bottom" constant="13.5" id="ei2-wq-USc"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="iYt-pg-k76" secondAttribute="leading" id="ycB-Yp-933"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="120"/>
+                    <connections>
+                        <outlet property="eventDateLabel" destination="Z8e-UQ-9Kd" id="fGj-Qg-7MU"/>
+                        <outlet property="eventDaysLabel" destination="xXw-1w-V5P" id="BJ6-KH-5HI"/>
+                        <outlet property="eventLabel" destination="iYt-pg-k76" id="O7h-nJ-rWb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="294" y="101"/>
+        </scene>
+    </scenes>
+</document>
